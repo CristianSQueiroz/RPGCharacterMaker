@@ -167,7 +167,7 @@ public class Main3DT extends javax.swing.JPanel {
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(136, 136, 136)
                                         .addComponent(historiaJL)))))
-                        .addGap(0, 20, Short.MAX_VALUE))))
+                        .addGap(0, 23, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
