@@ -11,4 +11,8 @@ package rpgcharactermaker;
  */
 public class teste {
     
+    
+    public void teste(){
+        System.out.println("foda se");
+    }
 }
