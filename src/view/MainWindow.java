@@ -5,6 +5,8 @@
  */
 package view;
 
+import controllerPDF.Pdf3DTAlpha;
+
 /**
  *
  * @author csqueiroz
@@ -15,6 +17,7 @@ public class MainWindow extends javax.swing.JFrame {
      * Creates new form MainWindow
      */
     public MainWindow() {
+        
         initComponents();
         this.setTitle("RPGCharacterMaker");
         this.setSize(1080, 764);
@@ -75,7 +78,9 @@ public class MainWindow extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainWindow().setVisible(true);
+                Pdf3DTAlpha pdf = new Pdf3DTAlpha();
+                pdf.generatePDF();
+                //new MainWindow().setVisible(true);
             }
         });
     }
